@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#wordPairEntry input {
+    margin: 5px;
+}
+
+#testWordDisplay {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#testWord {
+    color: blue;
+}
+
+#answerInput {
+    margin-bottom: 10px;
+}
+
+#submitAnswer.correct {
+    background-color: green;
+}
+
+#submitAnswer.incorrect {
+    background-color: red;
+}
+
+#scoreArea {
+    margin-top: 20px;
+}
+
+#feedbackArea {
+    margin-top: 20px;
+}

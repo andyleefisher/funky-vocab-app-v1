@@ -1,0 +1,25 @@
+<div id="app">
+    <div id="wordPairEntry">
+        <input type="text" id="englishWord" placeholder="English Word">
+        <input type="text" id="targetWord" placeholder="Target Language Word">
+        <button id="addWordPair">Add Word Pair</button>
+    </div>
+
+    <select id="languageSelect">
+        <option value="ENtoTarget">English to Target Language</option>
+        <option value="TargetToEN">Target Language to English</option>
+    </select>
+    <button id="startTest">Start Test</button>
+
+    <div id="testArea">
+        <div id="testWordDisplay">Test Word: <span id="testWord"></span></div>
+        <input type="text" id="answerInput" placeholder="Type your answer">
+        <button id="submitAnswer">Submit</button>
+    </div>
+
+    <div id="scoreArea">
+        <span>Score: <span id="scorePercent">0%</span></span>
+    </div>
+
+    <div id="feedbackArea"></div>
+</div>
